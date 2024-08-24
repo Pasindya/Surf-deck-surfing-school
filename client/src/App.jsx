@@ -10,7 +10,7 @@ import Supplier from './pages/Supplier';
 import Profile from './pages/Profile';
 import Header from './components/Header';
 import Signin from './pages/Signin';
-import Support from './pages/support';
+import Support from './pages/Support';
 import Footer from './components/Footer';
 
 export default function App() {
