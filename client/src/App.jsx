@@ -10,13 +10,15 @@ import Supplier from './pages/Supplier';
 import Profile from './pages/Profile';
 import Header from './components/Header';
 import Signin from './pages/Signin';
+import Support from './pages/support';
+import Footer from './components/Footer';
 
 export default function App() {
   return <BrowserRouter>
   <Header/>
  
   <Routes>
-    <Route path="/Home" element={<Home />} />
+    <Route path="/" element={<Home />} />
     <Route path="/About" element={<Aboutus />} />
     <Route path="/Packages" element={<Packages />} />
     <Route path="/Staff" element={<Staff />} />
@@ -26,9 +28,11 @@ export default function App() {
     <Route path="/Supplier" element={<Supplier />} />
     <Route path="/Profile" element={<Profile />} />
     <Route path="/Signin" element={<Signin/>} />
+    <Route path="/Support" element={<Support/>} />
+    
     
 
   </Routes>
-
+<Footer/>
   </BrowserRouter>;
 }
