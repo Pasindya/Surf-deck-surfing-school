@@ -28,25 +28,25 @@ export default function Support() {
       maxWidth: '600px',
       margin: '0 auto',
       padding: '20px',
-      backgroundColor: '#1a1a2e',
+      backgroundColor: '#e0f7fa', // Light turquoise
       borderRadius: '15px',
-      boxShadow: '0 10px 20px rgba(0, 0, 0, 0.2)',
-      color: '#f0f0f0',
+      boxShadow: '0 10px 20px rgba(0, 0, 0, 0.1)',
+      color: '#00796b', // Darker teal for text
       fontFamily: "'Roboto', sans-serif"
     }}>
       <h2 style={{
         textAlign: 'center',
-        color: '#e94560',
+        color: '#00796b', // Darker teal
         marginBottom: '20px',
         fontSize: '28px',
-        borderBottom: '2px solid #e94560',
+        borderBottom: '2px solid #00796b',
         paddingBottom: '10px'
       }}>
         Contact Our Support
       </h2>
       <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
         <div>
-          <label style={{ color: '#c1c1c1' }}>Email Address:</label>
+          <label style={{ color: '#004d40' }}>Email Address:</label>
           <input
             type="email"
             name="email"
@@ -58,16 +58,16 @@ export default function Support() {
               padding: '12px',
               marginTop: '5px',
               borderRadius: '8px',
-              border: '1px solid #ccc',
-              backgroundColor: '#162447',
-              color: '#f0f0f0',
+              border: '1px solid #b2dfdb', // Light teal border
+              backgroundColor: '#ffffff',
+              color: '#00796b',
               fontSize: '16px'
             }}
           />
         </div>
 
         <div>
-          <label style={{ color: '#c1c1c1' }}>Subject:</label>
+          <label style={{ color: '#004d40' }}>Subject:</label>
           <input
             type="text"
             name="subject"
@@ -79,9 +79,9 @@ export default function Support() {
               padding: '12px',
               marginTop: '5px',
               borderRadius: '8px',
-              border: '1px solid #ccc',
-              backgroundColor: '#162447',
-              color: '#f0f0f0',
+              border: '1px solid #b2dfdb',
+              backgroundColor: '#ffffff',
+              color: '#00796b',
               fontSize: '16px'
             }}
           />
@@ -89,7 +89,7 @@ export default function Support() {
 
         <div style={{ display: 'flex', gap: '10px' }}>
           <div style={{ flex: 1 }}>
-            <label style={{ color: '#c1c1c1' }}>First Name:</label>
+            <label style={{ color: '#004d40' }}>First Name:</label>
             <input
               type="text"
               name="firstName"
@@ -101,16 +101,16 @@ export default function Support() {
                 padding: '12px',
                 marginTop: '5px',
                 borderRadius: '8px',
-                border: '1px solid #ccc',
-                backgroundColor: '#162447',
-                color: '#f0f0f0',
+                border: '1px solid #b2dfdb',
+                backgroundColor: '#ffffff',
+                color: '#00796b',
                 fontSize: '16px'
               }}
             />
           </div>
 
           <div style={{ flex: 1 }}>
-            <label style={{ color: '#c1c1c1' }}>Last Name:</label>
+            <label style={{ color: '#004d40' }}>Last Name:</label>
             <input
               type="text"
               name="lastName"
@@ -122,9 +122,9 @@ export default function Support() {
                 padding: '12px',
                 marginTop: '5px',
                 borderRadius: '8px',
-                border: '1px solid #ccc',
-                backgroundColor: '#162447',
-                color: '#f0f0f0',
+                border: '1px solid #b2dfdb',
+                backgroundColor: '#ffffff',
+                color: '#00796b',
                 fontSize: '16px'
               }}
             />
@@ -132,7 +132,7 @@ export default function Support() {
         </div>
 
         <div>
-          <label style={{ color: '#c1c1c1' }}>Phone Number:</label>
+          <label style={{ color: '#004d40' }}>Phone Number:</label>
           <input
             type="tel"
             name="phone"
@@ -144,16 +144,16 @@ export default function Support() {
               padding: '12px',
               marginTop: '5px',
               borderRadius: '8px',
-              border: '1px solid #ccc',
-              backgroundColor: '#162447',
-              color: '#f0f0f0',
+              border: '1px solid #b2dfdb',
+              backgroundColor: '#ffffff',
+              color: '#00796b',
               fontSize: '16px'
             }}
           />
         </div>
 
         <div>
-          <label style={{ color: '#c1c1c1' }}>Your Message:</label>
+          <label style={{ color: '#004d40' }}>Your Message:</label>
           <textarea
             name="message"
             value={formData.message}
@@ -164,9 +164,9 @@ export default function Support() {
               padding: '12px',
               marginTop: '5px',
               borderRadius: '8px',
-              border: '1px solid #ccc',
-              backgroundColor: '#162447',
-              color: '#f0f0f0',
+              border: '1px solid #b2dfdb',
+              backgroundColor: '#ffffff',
+              color: '#00796b',
               fontSize: '16px',
               height: '120px'
             }}
@@ -175,8 +175,8 @@ export default function Support() {
 
         <button type="submit" style={{
           padding: '15px 25px',
-          backgroundColor: '#e94560',
-          color: '#fff',
+          backgroundColor: '#00796b', // Dark teal
+          color: '#ffffff',
           borderRadius: '10px',
           border: 'none',
           cursor: 'pointer',
