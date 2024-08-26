@@ -26,7 +26,7 @@ export default function Footer() {
               </a>
             </li>
             <li> 
-              <a href="/events" className="text-gray-700 font-semibold hover:text-teal-600 transition-colors duration-300">
+              <a href="/Events" className="text-gray-700 font-semibold hover:text-teal-600 transition-colors duration-300">
                 Events
               </a>
             </li>

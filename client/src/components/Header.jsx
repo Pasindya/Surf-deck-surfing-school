@@ -23,11 +23,11 @@ export default function Header() {
     </form>
     <ul className='flex gap-4'>
         <Link to='/Home'>
-        <li>Home</li>
+        
         </Link>
         <Link to='/About'>
         <li className='hidden sm:inline text-slate-700 hover:underline'>
-            About
+            About us
             </li>
             </Link>
 
